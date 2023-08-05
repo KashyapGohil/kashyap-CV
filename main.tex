@@ -1,0 +1,330 @@
+%-------------------------
+% Resume in Latex
+% Author : Kashyap Gohil
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \multicolumn{2}{p{0.97\textwidth}}{\raggedright\textit{\small #3}}\\[-5pt]
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Kashyap Gohil} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:+91 9601123402}{+91 9601123402} 
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:kgohil797@gmail.com}{kgohil797@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/kashyap-gohil/}{LinkedIn}
+    $|$
+    \faMedium\hspace{.5pt} \href{https://kashyapgohil25.medium.com/}{Medium}
+    $|$    
+    \faGithub \hspace{.5pt} \href{https://github.com/KashyapGohil}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Ahmedabad,+Gujarat/@23.0204978,72.4396583,11z/data=!3m1!4b1!4m6!3m5!1s0x395e848aba5bd449:0x4fcedd11614f6516!8m2!3d23.022505!4d72.5713621!16zL20vMDFkODhj}{Ahmedabad, India}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Master of Science (M.Sc.) (Hons.), Big Data Analytics \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Ahmedabad, India}
+      {St Xavier's College, Ahmedabad (Autonomous)   \textbf}{Jun 2019 \textbf{--} Jun 2021}
+
+    
+    \resumeSubheading
+      {Bachelor of Science (B.Sc.) (Hons.), Statistics \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }
+      % \normalfont{(Admission rate: 0.85\%)}
+      }{Ahmedabad, India}
+      {St Xavier's College, Ahmedabad (Autonomous)   \textbf}{Sep 2014 \textbf{--} Jun 2018}
+    
+  \resumeSubHeadingListEnd
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Infosys Limited \href{https://www.infosys.com/}{\raisebox{-0.1\height}\faExternalLink }}{Pune, India}
+      {System Engineer}{Sep 2021 \textbf{--} Present }
+        \resumeItemListStart
+            \resumeItem{W}
+            \resumeItem{W}            
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Cilans System \href{https://www.cilans.net/}{\raisebox{-0.1\height}\faExternalLink }}{Ahmedabad, India}
+      {Data Science Intern}{Feb 2021 \textbf{--} Jun 2021}
+        \resumeItemListStart
+            \resumeItem{Developed and executed Proof of Concepts (POCs) utilizing various cutting-edge technologies, primarily focusing on deep learning and machine learning. Additionally, constructed engaging case studies using PowerBI and KNIME analytics platform. }
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Insta Award (Associated with Infosys) \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}\newline{ Certification of Appreciation for hard work, consistent efforts, and work being done in the project.} \\ \vspace{3pt}
+        
+        \textbf{$2^{nd}$ position in cartooning competition \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}\newline{ Silver medal and Certification of Appreciation, Associated with St Xavier’s College, Ahmedabad (Autonomous) cultural committee.} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Fleet management Project}}{}
+          \resumeItemListStart
+            \resumeItem{Working on a client’s cloud data migration project, in this project we are using programming languages like Python, MySQL and pyspark and AWS}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Image-based Skin disease detection (Internship Project)}}{}
+          \resumeItemListStart
+            \resumeItem{Developed DL models (InceptionV3 and custom CNN) to accurately predict seven types of skin diseases from mobile device photos. Optimized models for enhanced accuracy. Demonstrated proof of concept by packaging and deploying as a Streamlit App. \textbf{Technology Stack :} Python, DL, Tensorflow, Streamlit.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Indian Telecom Sector: Multi-year Analysis (Internship Project)}}{}
+          \resumeItemListStart
+            \resumeItem{ Visualized and analyzed 8 years of mobile operators' subscriber trends, revenue, and ARPU using KNIME Data Analytics Platform for data cleaning and basic visualization. Implemented interactive charts with Latest Dataapps for enhanced visualization}
+            \resumeItem{ Deployed modules on AWS KNIME Server to create a comprehensive dashboard and reporting system. Utilized PowerBI for advanced visualization analysis, focusing on circle-wise subscribers and ARPU per operator. \textbf{Technology Stack :} KNIME, KNIME-Server, AWS-EC2, PowerBI}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Technical Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Languages:}{ Python, SQL, Pyspark, R} \\ \vspace{3pt}
+
+        \textbf{Developer Tools}{: IntelliJ IDEA, Postman, MySQL Workbench, Azure DevOps} \\ \vspace{3pt}      
+        \textbf{Technologies/Frameworks:}{ Git,  AWS Lambda,  AWS CloudFormation, AWS Glue, AWS Step Functions, Amazon Simple Notification Service (SNS), Amazon Simple Queue Service (SQS), PySpark} \\ \vspace{3pt}
+
+        \textbf{Data Analysis/Data Science:}{ PowerBI, Knime, Machine Learning, Deep Learning} \\ \vspace{3pt}                    
+        
+        % \textbf{Languages:}{ English (Professional), Gujarati (Native), Hindi (Elementary)}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- CERTIFICATES -----------
+
+\section{Certificates}
+  \resumeSubHeadingListStart
+
+    \resumeOrganizationHeading
+      {AWS Certified Cloud Practitioner \href{https://www.credly.com/badges/3a079f5d-5d97-476c-b540-cabb15d82b89/linked_in_profile}{\raisebox{-0.1\height}\faExternalLink }} {Jun 2023}{Issued by Amazon Web Services Training and Certification}   
+
+    \resumeOrganizationHeading
+      {Infosys Global Agile Developer Certification \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Jun 2023}{Certificate of achievement from Infosys(Education ,Training and Assessment)}  
+  
+    \resumeOrganizationHeading
+      {Infosys Certified PowerBI Developer \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Jul 2022}{Certificate of achievement from Infosys(Education ,Training and Assessment)}
+
+    \resumeOrganizationHeading
+      {Programming Fundamentals using Python \href{https://www.linkedin.com/in/kashyap-gohil/details/certifications/}{\raisebox{-0.1\height}\faExternalLink }}{Feb 2022}{Certificate of achievement from Infosys(Education ,Training and Assessment)}
+
+    \resumeOrganizationHeading
+       {Microsoft Certified: Azure AI Fundamentals \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Jan 2022}{Foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.} 
+      
+    \resumeOrganizationHeading
+      {KNIME-Analytics Platform \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Apr 2021}{Proficiency in KNIME Software for Collaboration and Productionizing of Data Science(L3), Advanced Proficiency in KNIME Analytics Platform (L2), Basic Proficiency in KNIME Analytics Platform(L1)}
+      
+    \resumeOrganizationHeading
+      {Seventh international conference on Big Data Analytics(BDA 2019) \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Dec 2019}{Organized by ,School of engineering and Applied Science ,Ahmedabad University, Ahmedabad during December $17^{th}$ to $20^{th}$,2019}      
+
+    \resumeOrganizationHeading
+      {Workshop on Econometrics with R }{Sep 2019}{conducted by the Department of Big Data Analytics and Department of Economics, St. Xavier's College, Ahmedabad during September $19^{th}$ to $20^{th}$,2019}   
+      
+    \resumeOrganizationHeading
+      {Carrer Oriented Course in SPSS \href{https://www.credly.com/badges/95150e89-26aa-4e4c-897d-bcd3484ffcfa/public_url}{\raisebox{-0.1\height}\faExternalLink }}{Mar 2019}{conducted by the Department of Statistics ,St. Xavier's College ,Ahmedabad in the month of march 2019}     
+  \resumeSubHeadingListEnd
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+% ----------- HOBBIES -----------
+
+% \section{Hobbies}
+%   \resumeSubHeadingListStart
+%     \small{\item{Swimming, Fitness, Eight-ball}}
+%   \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
